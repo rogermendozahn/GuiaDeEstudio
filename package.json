@@ -1,0 +1,25 @@
+{
+  "name": "guia-de-estudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar": "npx tsc",
+    "ejecutar": "node dist/index.js",
+    "start": "npm run compilar && npm run ejecutar",
+    "start-ts": "npx ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.0",
+    "@types/node": "^20.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "run": "^1.4.0",
+    "start-ts": "^0.0.0"
+  }
+}
